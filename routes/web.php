@@ -11,11 +11,12 @@
 |
 */
 Route::get('/', 'PagesController@home');
+Route::get('/contact', 'PagesController@contact');
 
 // Route::get('/', function () {
 //     return view('welcome');
 // });
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+// Route::get('/contact', function () {
+//     return view('contact');
+// });
