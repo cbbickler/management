@@ -17,6 +17,4 @@ Route::get('/contact', 'PagesController@contact');
 //     return view('welcome');
 // });
 
-// Route::get('/contact', function () {
-//     return view('contact');
-// });
+Route::get('/productcodes', 'ProductCodesControler@index');
