@@ -15,6 +15,10 @@ class CreateProductcodesTable extends Migration
     {
         Schema::create('productcodes', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('productcode');
+            $table->string('dealer');
+            $table->string('distributor');
+            $table->string('benefitspackage');
             $table->timestamps();
         });
     }
